@@ -1,0 +1,160 @@
+body {
+    background-color: #e7e7e9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    font-family: sans-serif;
+}
+h1{
+    padding-top: 46px;
+    color: #302d3e;
+    text-align: center;
+}
+.container {
+    display: flex;
+    width: 75%;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 1px solid black;
+    padding: 5px;
+    margin: 20px;
+    border-radius: 10px;
+    
+}
+.flex-container{
+    display: flex; 
+}
+.img{
+    width: 500px;
+    background-color: #db9dfe;
+    border-radius: 5px;
+}
+.topP{
+   
+    float: right;
+    padding: 10px 10px;
+    font-size: 12px;
+   
+}
+.topP span{
+    color: #66646f;
+}
+.topP a{
+    color: #4c78a9;
+    
+}
+.login_form{
+display:inline;
+width: 50%;
+}
+
+.main{
+    align-items: center;
+    margin: auto;
+    width: 50%;
+    padding-top: 50px;
+}
+
+.login_container{
+    padding: 0px 16px 0px 16px;
+    background-image: radial-gradient(#f6f7fc, #e2f0fb, #f0edf4);
+}
+input[type=text], input[type=password] {
+    width: 100%;
+    align-items: center;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    background-color: #fefefe;
+    border-radius: 5px;
+    border:none;
+    color: #c2c2c2;
+  }
+  .signInbtn{
+    width: 100%;
+    background-color: #ff6b69;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 18px;
+    margin: 28px 0px 44px 0px;
+  }
+  .sideline{
+    color: white;
+    width: 8px;
+    margin-top: 20px;
+  }
+  p.strikearound {
+    position: relative;
+    font-size: 10px;
+    z-index: 1;
+    overflow: hidden;
+    text-align: center;
+    color: #565660;
+    
+    
+}
+p.strikearound:before, p.strikearound:after {
+    position: absolute;
+    top: 51%;
+    overflow: hidden;
+    width: 20%;
+    height: 1px;
+    background-color: white;
+    content: '';
+
+}
+p.strikearound:before {
+    margin-left: -20%;
+    text-align: right;
+
+}
+.social_media {
+  margin: auto;
+  display: flex;
+  gap: 50px;
+  padding: 10px;
+}
+.google{
+    border: 1px solid white;
+    padding: 18px;
+}
+.apple{
+    border: 1px solid white;
+    padding: 20px;
+    background-color:white ;
+    box-shadow: 20px 20px 50px #d6dae3;
+    border-radius: 5px;
+}
+.facebook{
+    border: 1px solid white;
+    padding: 20px;
+}
+.fa-facebook {
+    color: #2a77e9;
+}
+@media only screen and (max-width: 768px){
+    .container{
+        width: 100%;
+    }
+    .img{
+       display: none; 
+    }
+    .login_containe{
+       
+        width: 100%;
+    }
+    .main{
+        margin: 0px;
+        width: 100%;
+    }
+}
+
+
+
